@@ -54,3 +54,4 @@ console.log(sum.toFixed(1));
 //! Ans:
 const numebrs = parseFloat("42.45689754");
 console.log(numebrs.toFixed(3));
+
