@@ -7,13 +7,21 @@ const age = 19;
 const height = 60;
 
 if (age > 18 && height > 60) {
-    console.log("She gari thelbe ")
-}else{
-    console.log("thelbe she garite boshe thakbe")
+  console.log("She gari thelbe ");
+} else {
+  console.log("thelbe she garite boshe thakbe");
 }
 
 // 2. একটি প্রোগ্রাম লিখ। যা চেক করবে, একজন শিক্ষার্থী ভর্তি হওয়ার যোগ্য কি না। গণিত স্কোর 80-এর বেশি অথবা ইংরেজি স্কোর 85-এর বেশি হতে হবে। আর এইগুলার কোনোটাই সত্যি না হলে বলবি— তোকে বিয়ে দিয়ে দিব।
 //! Ans:
+const math = 85;
+const english = 85;
+
+if (math > 80 || english > 85) {
+  console.log("Vorti hote parbe");
+} else {
+  console.log("Toke biye diye dibo");
+}
 
 // 3. একজন স্টুডেন্টের GPA যদি 5 হয় এবং পরিবারের মাসিক আয় 10000-এর কম হয়, তাহলে সে স্কলারশিপ পাবে। না হয় তাকে বেতন দিয়ে পড়তে হবে।
 //! Ans:
